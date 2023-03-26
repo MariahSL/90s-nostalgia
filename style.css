@@ -108,8 +108,17 @@ figcaption {
    padding: 2em 0;
 }
 
-.icon image {
+.icon > img {
    width: 260px;
    float: left;
-   margin-right: 2em;
+   margin: 2em;
+}
+
+.featured-articles {
+   display: none;
+}
+
+footer > p {
+   text-align: center;
+   padding: 8px 0;
 }
